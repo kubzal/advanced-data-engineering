@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Dane generowane lokalnie (generator NovaCart, przykłady, zadania)
+data/
+out/
+datasets/out/
+*.parquet
+*.avro
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!example.tfvars
+
+# Sekrety i poświadczenia
+*.json.key
+*-sa-key.json
+.env
+
+# Edytory i system
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json

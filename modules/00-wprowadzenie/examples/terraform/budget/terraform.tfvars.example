@@ -1,0 +1,12 @@
+# examples/terraform/budget/terraform.tfvars.example
+# Skopiuj do terraform.tfvars (plik jest w .gitignore) i uzupełnij.
+project_id         = "ade-jkowalski-2611"
+billing_account_id = "0X0X0X-0X0X0X-0X0X0X"
+alert_email        = "ty@twoja-domena.example"
+owner              = "jkowalski"
+
+monthly_budget = 20     # w walucie konta rozliczeniowego, np. PLN albo USD
+# currency_code = "PLN" # opcjonalnie; musi zgadzać się z walutą konta
+
+bq_query_tib_per_day          = 1
+bq_query_tib_per_user_per_day = 0.5
